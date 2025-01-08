@@ -137,4 +137,69 @@ nav ul li a{
 }
 .skill_container{
     width: 90%;
+    margin: 100px auto;
+
+}
+.skill_content{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.card_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 10px;
+}
+.card_content{
+    width: 260px;
+    padding: 30px 33px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.card_content:hover{
+    border: 1px solid red;
+}
+.card_content img, 
+.card_content h5,
+.card_content p{
+    margin-bottom: 25px;
+}
+.resume{
+    width: 70%;
+    margin: 0 auto;
+}
+.resume_title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.resume_subtitle{
+    padding: 20px;
+}
+.resume_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.resume_card{
+    padding: 0px 50px;
+    
+}
+.resume_card h3,
+.resume_card h4,
+.resume_card p{
+    margin: 20px;
+}
+.download_button{
+    margin: 10px auto;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #faf2e8;
 }
