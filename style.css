@@ -1,6 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", serif;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 12px 22px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.btn-secenary{
+    border-radius: 5px;
+    border: 1px solid rgb(253, 110, 10);
+    padding: 12px 22px;
+    color: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.text-dark{
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+header{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #faf2e8;
+    background-image: url("./images/developer.png"), 
+    url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.nav-title h1{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav-title span{
+    color: rgb(253, 110, 10);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 40px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.banner_content{
+    width: 380px;
+    padding: 80px 100px 120px 0px;
+}
+.wellcome{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.banner_title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.banner_image{
+    width: 375px;
+}
+.hero{
+    width: 80%;
+    background-color: #faf2e8;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+.hero_content{
+    padding: 100px 120px;
+    text-align: center;
+}
+.hero_title{
+    margin-bottom: 30px;
+}
+.hero_name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.skill_container{
+    width: 90%;
 }
