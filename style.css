@@ -79,7 +79,6 @@ nav ul li a{
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0%;
     text-align: left;
     margin-right: 40px;
 }
@@ -226,19 +225,52 @@ footer textarea{
     margin-top: 10px;
 }
 
-.hide{
-    display: none;
-}
-
 @media all and (max-width: 576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner_image{
+        width: 300px;
+    }
+    .hero_content{
+        padding: 60px 50px;
+    }
+    .hero_name{
+        flex-direction: column;
+    }
+    .card_container{
+        flex-direction: column;
+    }
+    .card_content{
+        width: 95%;
+    }
+    .resume_flex{
+        flex-direction: column;
+    }
+    .resume{
+        width: 95%;
+    }
+    .resume_card{
+    padding: 10px;
+    }
+
+
+
+
+
     footer{
         padding: 20px;
         height: auto;
     }
     .footer_container{
         flex-direction: column;
+        gap: 20px 0px;
     }
-    .content_area{
+    .content_area, 
+    .form_area{
         width: 100%;
+    }
+    .footer input, 
+    footer textarea{
     }
 }
