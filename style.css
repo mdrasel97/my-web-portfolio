@@ -40,8 +40,8 @@ body{
 }
 header{
 
-    width: 100%;
-    height: 100vh;
+    /* width: 100%;
+    height: 100vh; */
     background-color: #faf2e8;
     background-image: url("./images/developer.png"), 
     url("./images/header_bg.png");
@@ -87,12 +87,13 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    margin: 0px 35px 0px 200px;
+
 
 }
 .banner_content{
-    width: 380px;
-    padding: 80px 100px 120px 0px;
+    width: 580px;
+    /* padding: 80px 100px 120px 0px; */
 }
 .wellcome{
     color: rgb(71, 71, 71);
@@ -115,7 +116,7 @@ nav ul li a{
     margin-bottom: 20px;
 }
 .banner_image{
-    width: 375px;
+    width: 580px;
 }
 .hero{
     width: 80%;
@@ -223,4 +224,21 @@ footer textarea{
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+@media all and (max-width: 576px) {
+    footer{
+        padding: 20px;
+        height: auto;
+    }
+    .footer_container{
+        flex-direction: column;
+    }
+    .content_area{
+        width: 100%;
+    }
 }
